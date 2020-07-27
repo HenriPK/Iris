@@ -1,0 +1,38 @@
+
+/* IRIS RENDERER WEBGL APP STYLESHEET */
+
+* {
+	margin:0;
+	color:white;
+}
+
+body {
+	background-color: #111;
+}
+
+h1 {
+	display:block;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#logo {
+	display:block;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:4px;
+	width: 64px;
+}
+
+#canvas {
+	display: block;
+	background-color: black;
+	margin: auto;
+	border-radius: 20px;
+}
