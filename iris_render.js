@@ -27,8 +27,8 @@ function loop(timestamp)
 {
 	var progress = timestamp - dt;
 	
-	setTimeout(update(), 0);
-	setTimeout(draw(), 0);
+	update();
+	draw();
 	
 	dt = timestamp;
 	window.requestAnimationFrame(loop);
