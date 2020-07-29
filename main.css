@@ -30,12 +30,23 @@ h1 {
 	width: 64px;
 }
 
+#model {
+	display:block;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:4px;
+	width: 64px;
+}
+
 #canvas {
 	display: block;
-	background-color: black;
+	background-color: white;
 	margin: auto;
 	border-radius: 20px;
 	image-rendering: pixelated;
+	size: 640px 360px;
 }
 
 p {
